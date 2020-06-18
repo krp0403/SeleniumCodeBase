@@ -1,0 +1,25 @@
+package com.qa.base;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class TestBase {
+
+
+	public TestBase() {
+
+		Properties prop = new Properties();
+		// Now create the object of the file input stream class to connect the java code to the config file at its location as seen below. 
+				
+				FileInputStream FP;
+				try {
+					FP = new FileInputStream("C:\\Users\\dell\\workspace\\FirstJavaProject\\src\\SeleniumSessions\\config.properties");
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		// now load the file using the object of the properties class.
+				
+	}
+}

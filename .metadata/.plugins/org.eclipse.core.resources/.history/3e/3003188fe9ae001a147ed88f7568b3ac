@@ -1,0 +1,26 @@
+package com.qa.tests;
+
+import org.testng.annotations.BeforeMethod;
+import com.qa.base.TestBase;
+import com.qa.client.RestClient;
+
+public class GetApiTests extends TestBase{
+	TestBase testbase;
+	
+	
+	@BeforeMethod
+	public void testSetup() {
+		
+		testbase = new TestBase();
+		prop.
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
