@@ -18,6 +18,8 @@ import com.crm.qa.util.WebEventListener;
 
 
 public class TestBase {
+	
+	s
 
 	// declaring a public webDriver and properties instance in order to be able to use it throughout the class(es).
 	public static WebDriver driver;
@@ -27,6 +29,7 @@ public class TestBase {
 	public TestBase() {
 
 		try {
+			System.out.println("test to check if the git works");
 			prop = new Properties();// instantiate
 			// lets read the properties file using fileinputstream instance.
 			FileInputStream ip = new FileInputStream("C:\\Users\\dell\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\comfig\\config.properties");
