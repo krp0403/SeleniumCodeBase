@@ -3481,3 +3481,4 @@ Caused by: com.google.inject.ProvisionException: Unable to provision, see the fo
 2020-09-13 12:53:25,040 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-09-13 12:53:25,041 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\eclipse-workspace\FreeCRMTest\src\main\resources
 2020-09-13 12:53:25,055 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 12:53:25,055 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dell\eclipse-workspace\FreeCRMTest\src\test\resources
